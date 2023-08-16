@@ -78,9 +78,19 @@ nav ul li a:hover::after{
 .header-text h1{
     font-size: 60px;
     margin-top: 20px;
-
+    font-weight: 700;
 }
 .header-text h1 span{
+    color: #ff004f;
+}
+
+.header-text h3{
+    font-size: 40px;
+    font-weight: 700;
+    /* color: #ff004f; */
+}
+
+.header-text h3 span{
     color: #ff004f;
 }
 
