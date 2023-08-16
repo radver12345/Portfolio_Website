@@ -10,7 +10,7 @@ Welcome to my meticulously designed portfolio website, where I present a collect
 - Fun and Interactive: Experience animations that make exploring the site engaging.
 - Cool Icons: See clear and stylish icons, making things easy to understand.
 
-Explore the site for a smooth experience on any device, a fresh and modern design, sections that make sense, interactive elements that add fun, and icons that are both stylish and helpful. It's designed to be simple and enjoyable for everyone.
+Embrace a smooth, modern design that's easy to use on any device. Navigate effortlessly through well-organized sections and enjoy interactive elements that add a touch of fun. Our stylish icons are both visually appealing and practical. Experience simplicity and delight for all.
   
 ## Technologies Used
 
