@@ -21,5 +21,9 @@ Explore the site for a smooth experience on any device, a fresh and modern desig
 
 These core technologies unite to create a portfolio website that surpasses their individual strengths. HTML5, CSS3, JavaScript, and Font Awesome collaborate to fashion a captivating, interactive, and visually striking online exhibition of skills and projects.
 
+## License
+
+This project is licensed under the [MIT LICENSE]
+
 
 ## Explore the site for a smooth experience on any device, a fresh and modern design, sections that make sense, interactive elements that add fun, and icons that are both stylish and helpful. It's designed to be simple and enjoyable for everyone.
