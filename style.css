@@ -389,7 +389,7 @@ nav .fas{
 }
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url(images/pbg.png);
+        background-image: url(images/pbg2.png);
     }
     .header-text{
         margin-top: 100%;
@@ -455,7 +455,7 @@ nav .fas{
     }
 
     .logo{
-        width: 50px;
+        width: 100px;
     }
 }
 
