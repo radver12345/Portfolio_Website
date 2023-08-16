@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal-Portfolio-WebSite</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/38899bfea2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#certificates">Certificates</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="header-text">
+                <p>Software Developer</p>
+                <h1>Hello World!!,<br> I'm <span>Radha Verma</span></h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- about section strts  -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm Radha Verma, a dedicated and inquisitive Computer Science and Engineering graduate from GL Bajaj Institute Of Technology And Management, Greater Noida. With a firm foundation in logical problem-solving and advanced algorithms, I've consistently demonstrated a keen interest in translating software engineering techniques into practical solutions for real-world challenges.
+
+                        Throughout my academic journey, I've maintained an impressive CGPA of 83, showcasing my commitment to academic excellence. As a recent graduate, I've eagerly embraced opportunities to apply my skills in the professional realm.
+                        
+                        My technical toolkit encompasses Java, C, C++, and Python, while my proficiency extends to web development tools like HTML5, CSS3, Javascript, and React.JS. I'm skilled in frameworks such as Spring and Hibernate, and possess a strong foundation in database management.
+                        
+                        I am driven by an unwavering passion for innovation and collaborative problem-solving. My projects, internships, and achievements reflect my dedication to pushing boundaries and making a tangible impact on the tech landscape.
+                        
+                        I'm excited to connect and explore opportunities to contribute to the ever-evolving world of Software Engineering. Let's collaborate and redefine the possibilities together.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Languages Known</span><br> Java, C, C++, Python</li>
+                                <li><span> Java Developer</span><br> Java Full Stack Developer</li>
+                                <li><span> Frameworks</span><br> Spring, Hibernate, Spring Boot</li>
+                                <li><span> Database Management</span><br>  SQL, JDBC, Hibernate/JPA, MySql, H2 Database</li>
+                                <li><span> Developer Tools</span><br> Postman, Git Bash and Github, Android studio, Intellij Idea, Visual Studio</li>
+                                <li><span> Coursework</span><br> OOPS Concepts, Operating System, Database Management System, Computer Networks</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Jan 2023-May 2023
+                                </span><br> Associate Software Engineer Intern At Bosch Global Software Technologies</li>
+                                <li><span>June 2023-August 2023</span><br>Software Engineering Virtual Program</li>
+                                <li><span>July 2021- August 2021</span><br>DSA Scholar Intern</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2019 - 2023</span><br> GL Bajaj Institute Of Technology And Management</li>
+                                <li><span> 2018 </span><br> Secondary School from Kendriya Vidyalaya No.3 Amritsar</li>
+                                <li><span> 2016 </span><br> High School from Kendriya Vidyalaya No.3 Amritsar</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Certificate section strts from here -->
+
+    <div id="certificates">
+        <div class="container">
+            <h1 class="sub-title">My Certificates</h1>
+            <div class="certificates-list">
+                <div>
+                    <i class="fa-brands fa-sketch"></i>
+                    <h2> JP Morgan Software Engineering Virtual Experience</h2>
+                    <!-- <p>hdhjshjhbvvshbfsh</p> -->
+                    <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/J.P.%20Morgan/R5iK7HMxJGBgaSbvk_J.P.%20Morgan_eG9sxrCMqfJPfDd7X_1691651004257_completion_certificate.pdf">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-sketch"></i>
+                    <h2> Goldman Sachs Software Engineering Virtual Experience</h2>
+                    <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Goldman%20Sachs/NPdeQ43o8P9HJmJzg_Goldman%20Sachs_eG9sxrCMqfJPfDd7X_1689942423854_completion_certificate.pdf">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-sketch"></i>
+                    <h2>Cisco Certified Python Programmer (CCPP)</h2>
+                    
+                    <a href="https://www.credly.com/badges/ce12eb30-c551-4bbb-a75e-7519c064c277/linked_in_profile">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-sketch"></i>
+                    <h2>SQL and Relational Databases course offered by IBM </h2>
+                    
+                    <a href="https://courses.cognitiveclass.ai/certificates/1654a166d48146aaaa6bbc60bcfe1e02">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-sketch"></i>
+                    <h2>Coding Blocks Certificate of Participation </h2>
+                
+                    <a href="https://minio.codingblocks.com/scattershot-certificates/9e48bbe9-9c54-4a9b-a6c6-1779ed80a9c8.pdf">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-sketch"></i>
+                    <h2>Android Application Development</h2>
+                    
+                    <a href="https://olympus.mygreatlearning.com/courses/21871/certificate">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-sketch"></i>
+                    <h2> Big Data Hadoop and Spark Developer</h2>
+                    
+                    <a href="https://lms.simplilearn.com/dashboard/certificate">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-sketch"></i>
+                    <h2>Introduction to JAVA Completion Certificate</h2>
+                   
+                    <a href="http://files.codingninjas.in/certificate2147811a696ffc817027dd94e4d8de7ab3fff55.pdf">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-sketch"></i>
+                    <h2>Java programming Solving problems with Software Coursera</h2>
+            
+                    <a href="https://www.coursera.org/account/accomplishments/certificate/Z2WKULJDHV6N">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-sketch"></i>
+                    <h2>COMPUTER SYSTEM SECURITY E & ICT ACADEMY,IIT KANPUR</h2>
+                   
+                    <a href="https://ict-certificates.s3.ap-south-1.amazonaws.com/24230-95864-1165f1b1f10d3c3d-2021.pdf">Learn more</a>
+                </div>
+                
+                <div>
+                    <i class="fa-brands fa-sketch"></i>
+                    <h2>Google Code Jam 2022, Qualified</h2>
+                    
+                    <a href="file:///C:/Users/rahul/Downloads/google%20code%20jam.pdf">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-sketch"></i>
+                    <h2>Google Code Jam 2022-Qualified</h2>
+                    
+                    <a href="file:///C:/Users/rahul/Downloads/google%20code%20jam.pdf">Learn more</a>
+                </div>
+
+
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-- -----------------------Projects Section starts from here--------------------------------- -->
+
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="projects-list">
+                <div class="project">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Backtracking Algo Visualizer</h3>
+                        <p>Researched and implemented the most suitable algorithm for solving Sudoku puzzles. Developed using Python, Pygame module, a College API, JSON, and requests module. 
+                        <br> Unique Feature: Visualizes the step-by-step process of a backtracking algorithm solving Sudoku puzzles.</p>
+                        <a href="https://github.com/radver12345/Sudoku-Solver"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Video Meeting Android App</h3>
+                        <p>Focused on frontend development for a video meeting application. Integrated Jitsi SDK and Java for backend functionality, 
+                        while implementing Google Firebase for authentication
+                        Enables users to participate in video meetings seamlessly</p>
+                        <a href="https://github.com/radver12345/Videostaa"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>ECG ANALYSIS</h3>
+                        <p>Developed a high-accuracy Convolutional Neural Network (CNN) architecture for heartbeat classification.
+                        Created a highly accurate convolutional neural network architecture using Python and TensorFlow and utilized Matplotlib for data visualization.
+                        Developed a model to classify heartbeats into five different types of arrhythmia based on ECG signals</p>
+                        <a href="https://github.com/radver12345/HeartBeat-Classification"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-- ------------------Contact strts from here------------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>radver@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>7891848745</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/radha-verma-5176571b4/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/radver12345"><i class="fa-brands fa-github"></i></a>
+                </div>
+
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Write Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <p>Copyright © 2023. All rights reserved.Elegantly curated with <i class="fa-solid fa-heart"></i> by Radha Verma, where creativity meets the digital realm.</p>
+    </div>
+</div>
+
+ <!-- to give contents only when clicked  -->
+<script>
+ var tablinks = document.getElementsByClassName("tab-links");
+ var tabcontents = document.getElementsByClassName("tab-contents");
+
+ function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+  }
+</script>
+
+<!-- for small screen openmenu & closemenu functions -->
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxf4YyOYcpgd9VIYlGNYkckFjG8IzqKgxAqLcZzHbZh8n_weI4CSmaVcMQu_pbrAY3HeQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
